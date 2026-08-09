@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="site-header">
     <nav class="nav container">
       <a class="logo" href="#home">ND<span>.</span></a>
@@ -23,10 +24,11 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main-content">
     <section id="home" class="hero">
       <div class="container hero-grid">
         <div>
+          <div class="hero-status"><span></span> OPEN TO PROFESSIONAL OPPORTUNITIES</div>
           <p class="eyebrow">OPERATIONS • CUSTOMER SERVICE • IT SUPPORT</p>
           <h1>Newton<br><span>Dickson</span></h1>
           <p class="hero-title">Operations and Customer Service Professional</p>
@@ -35,20 +37,25 @@
             client relationship management, field collections, and first-line IT support.
           </p>
           <div class="hero-actions">
-            <a class="btn primary" href="#contact">Let's Connect</a>
+            <a class="btn primary" href="#contact">Let's Connect <span aria-hidden="true">↗</span></a>
             <a class="btn secondary" href="NEWTON_DICKSON_CV.pdf" download>Download CV</a>
           </div>
           <div class="quick-contact">
+            <a href="mailto:dicksoneotieno99@gmail.com">dicksoneotieno99@gmail.com</a>
+            <span>•</span>
             <span>Nairobi, Kenya</span>
-            <span>+254 794 944 485</span>
-            <span>dicksoneotieno99@gmail.com</span>
           </div>
         </div>
         <div class="hero-card">
-          <div class="initials">ND</div>
-          <p>“Professional service. Practical solutions. Stronger operations.”</p>
+          <div class="hero-card-top">
+            <span class="card-kicker">CAREER HIGHLIGHT</span>
+            <span class="card-index">01</span>
+          </div>
+          <div class="impact-number">25<span>%</span></div>
+          <p class="impact-title">Increase in team productivity</p>
+          <p class="impact-copy">Achieved through process improvements while leading a data-annotation team.</p>
           <div class="card-line"></div>
-          <small>Available immediately</small>
+          <div class="hero-card-tags"><span>Team Leadership</span><span>Process Improvement</span></div>
         </div>
       </div>
     </section>
